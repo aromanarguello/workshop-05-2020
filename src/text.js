@@ -1,3 +1,5 @@
-const text = "Remote Workshop";
+function getText(name) {
+  return `hello ${name}`;
+}
 
-export default text;
+export default getText;
