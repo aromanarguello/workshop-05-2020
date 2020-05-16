@@ -1,5 +1,5 @@
-import getText from "./text";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-console.log(getText("alejandro"));
-
-// console.log("Remote Workshop!");
+ReactDOM.render(<App />, document.getElementById("app"));
